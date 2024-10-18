@@ -1,0 +1,298 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: "Lexend", sans-serif;
+}
+
+header {
+    background-image: url(./img/banner\ promotion.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+    padding-bottom: 244px;
+
+
+    & nav {
+        display: flex;
+        justify-content: space-between;
+        padding: 16px 92px;
+        align-items: center;
+
+        & ul {
+            display: flex;
+            justify-content: space-between;
+            gap: 40px;
+            color: rgba(239, 239, 239, 0.70);
+
+
+
+
+            & li:first-child {
+                color: #fff;
+            }
+        }
+
+        & .btns {
+
+
+
+            & button {
+                padding: 8px 16px;
+                border-radius: 8px;
+                background: transparent;
+                color: #fff;
+
+
+
+
+            }
+
+            & button:first-child {
+                margin-right: 16px;
+                background-color: #3B44F6;
+            }
+
+            & .border {
+                border: #fff solid 1px;
+            }
+
+
+        }
+    }
+
+    & .content {
+
+        margin-top: 197px;
+        margin-left: 95px;
+        color: #fff;
+        width: 438px;
+
+        & .title {
+            display: flex;
+            flex-direction: column;
+            gap: 17px;
+        }
+
+        & .title h1 {
+            display: flex;
+            flex-direction: column;
+            gap: 17px;
+            font-size: 48px;
+        }
+
+        & .title p {
+            display: flex;
+            flex-direction: column;
+            gap: 17px;
+            font-size: 24px;
+        }
+
+
+        & button {
+            background-color: #3B44F6;
+            padding: 16px 32px;
+            display: flex;
+            margin-top: 64px;
+            gap: 64px;
+
+
+        }
+    }
+
+}
+
+main .subt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main .subt h2 {
+    display: flex;
+    font-size: 36px;
+    margin-bottom: 16px;
+    margin-top: 70px;
+}
+
+main .subt p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: center;
+    margin-bottom: 60px;
+
+}
+
+main .logos {
+    display: flex;
+    text-align: center;
+    gap: 83px;
+    height: 167px;
+    width: 916px;
+    margin: auto;
+
+    & .card {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 21px;
+        font-size: 14px;
+    }
+
+    & .card img {
+        width: 94px;
+        height: 94px;
+
+    }
+}
+
+.games .cards {
+    display: flex;
+    gap: 16px;
+}
+
+.games .cards .card{ 
+    width: 199px;
+    height: 199px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 8px;
+}
+
+.stardew {
+    background-image: url(./img/stardew.svg);
+}
+
+.fps {
+    background-image: url(./img/fps.svg);
+}
+
+.rpg{
+    background-image: url(./rpg.svg);
+}
+.puzzle{
+    background-image: url(./img/puzzle.svg);
+}
+.role-playing{
+    background-image: url(./role.svg);
+}
+.sports{
+    background-image: url(./img/sports.svg);
+}
+
+
+.gameincard {
+    background-image: url(../assets/img/imgs/minecraft.svg);
+    width: 199px;
+    height: 199px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 8px;
+
+  
+}
+
+
+
+
+body .container {
+    font-family: Arial, sans-serif;
+    
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    margin: 0;
+    justify-content: space-between;
+    
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+  /*   text-align: center; */
+}
+
+h1 {
+    margin-bottom: 30px;
+    font-size: 2.5rem;
+}
+
+ .game-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    /* gap: 30px; */
+    align-items: center;
+}
+
+.game-item {
+    background-color: white;
+    padding: 17px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    width: 200px;
+}
+
+.game-item img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.game-item h2 {
+    font-size: 1.25rem;
+    margin: 10px 0;
+}
+
+.price {
+    color: #007BFF;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+ 
+
+
+
+
+ /* .game-list {
+    display: flex;
+    gap: 16px;
+
+    & .card {
+        background: #fff;
+        border: 0.3px solid #D1D1D1;
+        padding: 16px;
+        border-radius: 6px;
+
+        & .content {
+            display: flex;
+            flex-direction: column;
+            gap: 17px;
+
+            & .prices {
+                display: flex;
+                justify-content: space-between;
+
+                & .desconto {
+                    display: flex;
+                }
+            }
+        }
+    }
+ } */
